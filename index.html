@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Car</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="carcontainer">
+        <div class="gamestatus">Welcome to Monster Car Obstacle Game</div>
+        <div class="scoreCont">Your Score:</div>
+        <div class="race">
+            <img src="img/car.png" alt="" id="car">
+            <img src="img/leftwheel.png" alt="" id="lwheel" class="carwheel">
+            <img src="img/rightwheel.png" id="rwheel" class="carwheel">
+        </div>
+        <div id="monstercar" class="animonster">
+            <img src="img/monster_truck_wwh.png" alt="" id="mcar">
+            <img src="img/mleftwheel-removebg-preview.png" alt="" id="mlwheel">
+            <img src="img/mrightwheel-removebg-preview.png" alt="" id="mrwheel">
+        </div>
+
+        <label for="play" class="btnlabel">
+            <button onClick="window.location.reload();" id="play">
+                &#x27A4;
+            </button>
+            <i>Play</i>
+        </label>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
